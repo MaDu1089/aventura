@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sobrevivendo em um Mundo Zumbi</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-zumbis.png" alt="">
+            <p>Um dia, ao explorar uma biblioteca abandonada, eu encontrei um diário de um sobrevivente. Ele falava sobre uma zona segura, longe do apocalipse zumbi. Decidi seguir as pistas deixadas por ele!</p>
+            <button class="btn-proximo" data-proximo="1">Ir para São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Ir para Recife</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em São Paulo, em busca de suprimentos em um antigo shopping. A primeira pista está escondida em algum lugar do local.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar no telhado do shopping</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a segurança</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Recife, você descobre que a antiga ponte dos Arcos pode ser a chave para encontrar a zona segura. Para qual lugar você decide ir?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o antigo mercado público</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a praia deserta</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No telhado do shopping, você encontra uma antiga rádio que revela que a próxima pista está em uma fazenda no interior.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a fazenda</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-seguro.png" alt="imagem de voltar para um local seguro">
+            <p>Você decide que a aventura é arriscada demais e volta para sua zona segura, mas sempre se pergunta o que poderia ter encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No mercado público, você encontra um mapa antigo que indica a localização de uma fazenda segura no interior.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a fazenda</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a praia deserta, você encontra uma caverna, mas ela está cheia de zumbis. É melhor voltar!</p>
+            <button class="btn-proximo" data-proximo="8">Retornar e investigar o mercado</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na fazenda, a busca pela zona segura se intensifica. Você se depara com dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao mercado, você encontra o mapa antigo novamente. Agora, rumo à fazenda!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a fazenda</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a um celeiro cheio de suprimentos e informações sobre a zona segura.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a zona segura</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em um pântano infestado de zumbis. Você consegue escapar, mas não encontra a zona segura aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-zona-segura.png" alt="encontrando uma zona segura em meio ao apocalipse zumbi">
+            <p>Dentro da zona segura, você encontra outros sobreviventes e decide se juntar a eles para reconstruir a vida após o apocalipse.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra o celeiro com suprimentos e informações sobre a zona segura.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a zona segura</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
